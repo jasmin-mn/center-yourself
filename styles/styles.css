@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: grey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -11,7 +10,6 @@ body {
 }
 
 .header-poster {
-    margin: 0 auto;
     width: 90%;
     height: 100%;
     background-size: 100% 100%;
@@ -23,17 +21,8 @@ body {
     width: 100%;
 }
 
-.main h1 {
-    text-align: center;
-}
-
-.main .gallery {
-    text-align: center;
-}
-
 .main .gallery-image {
     margin-right: 10px;
-    display: inline-block;
     width: 20%;
 }
 
@@ -57,13 +46,6 @@ body {
     vertical-align: top;
     text-align: left;
     font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
     padding: 5px;
     margin-right: 5%;
-}
-
-.footer .links ul li:first-child {
-    color: grey;
-    margin-bottom: 20px;
 }
