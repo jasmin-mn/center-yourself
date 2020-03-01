@@ -32,6 +32,8 @@ Research: `list-style-type` property [https://developer.mozilla.org/en-US/docs/W
 
 6) Arrange is so that each unordered list inside the footer is displayed side by side, rather than on top of each other.
 
-7) For the first element of each list in the footer, assign the CSS property `color: grey;`.
+7) For the __first__ element of each list in the footer, assign the CSS property `color: grey;`.
 
 Research: Pseudo selectors [https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child)
+
+8) Apply a `margin-bottom` property with a value of `20px` to the __first__ element of each list in the footer.
