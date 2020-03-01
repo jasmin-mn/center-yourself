@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 75vh;
+    background-color: brown;
+}
+
+.header-poster {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-size: 100% 100%;
+    background: url('../images/fire-wolf.jpg') no-repeat center center;
+}
+
+.main {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main .gallery {
+    text-align: center;
+}
+
+.main .gallery-image {
+    margin-right: 10px;
+    display: inline-block;
+    width: 20%;
+}
+
+.main .gallery-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+.footer .links {
+    margin: 20px;
+}
+
+.footer .links ul {
+    vertical-align: top;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5%;
+}
+
+.footer .links ul li:first-child {
+    color: grey;
+    margin-bottom: 20px;
+}
